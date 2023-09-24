@@ -1,0 +1,33 @@
+/* App.css */
+.custom-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: #4fa94d;
+    border-radius: 50%;
+    margin: 0 5px;
+    animation: bounce 1s infinite alternate;
+}
+
+.circle-1 {
+    animation-delay: 0.1s;
+}
+
+.circle-2 {
+    animation-delay: 0.2s;
+}
+
+.circle-3 {
+    animation-delay: 0.3s;
+}
+
+@keyframes bounce {
+    to {
+        transform: translateY(-10px);
+    }
+}
